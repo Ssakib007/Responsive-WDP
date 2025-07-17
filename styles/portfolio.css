@@ -190,4 +190,65 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
     .skills-container{
         flex-direction: column;
     }
+
+    .resume-container{
+        flex-direction: column;
+    }
+
+    footer{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer-column{
+        width: 100%;
+    }
+
+    footer input[type="text"],  footer input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+    }
 }
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    footer{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+
+    footer input[type="text"],  footer input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    footer{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+
+    footer input[type="text"],  footer input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    footer{
+        /* flex-direction: column; */
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+
+    footer input[type="text"],  footer input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+    }
+
+}
+
